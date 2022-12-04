@@ -286,11 +286,11 @@ ul {
   appearance: none;
   outline: none;
   display: block;
-  background: url(../images/icons.svg#icon-envelope);
+  background-image: url(../images/icons.svg#icon-envelope);
   /*background-color: black;*/
   /*
   url('../images/icons.svg#icon-envelope');*/
-  background: url(../images/icons.svg#icon-envelope);
+  background-image: url(../images/icons.svg#icon-envelope);
   width: 1rem;
   height: 0.9375rem;
   /*max-width: 100%; */
