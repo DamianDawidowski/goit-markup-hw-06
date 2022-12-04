@@ -255,6 +255,10 @@ ul {
   fill: currentColor;
 }
 
+.modal-icon2:active, .modal-icon2:focus {
+  color: var(--color-blue)
+}
+
 .modal-area {
   border-style: none;
   resize: none;
