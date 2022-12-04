@@ -250,7 +250,8 @@ ul {
 .modal-icon2 {
   position: absolute;
   transform: translate(130%, 100%);
-  color: inherit;
+  /*color: inherit;*/
+  color: pink;
   fill: currentColor;
 }
 
