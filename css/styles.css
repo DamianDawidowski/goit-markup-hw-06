@@ -238,14 +238,20 @@ ul {
   color: var(--color-blue);
 }
 
-.modal-label {
+.modal-div {
   padding-bottom: 0.625rem;
+  fill: var(--color-black);
+}
+
+.modal-label:focus {
+  fill: var(--color-blue);
 }
 
 .modal-icon2 {
   position: absolute;
-  fill: var(--color-black);
   transform: translate(130%, 100%);
+  color: inherit;
+  fill: currentColor;
 }
 
 .modal-area {
