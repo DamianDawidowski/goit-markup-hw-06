@@ -287,7 +287,9 @@ ul {
   outline: none;
   display: block;
   /*background-color: black;*/
-  background-color: url('../images/icons.svg#icon-envelope');
+  background-color: url(../images/banners/background.jpg);
+  /*
+  url('../images/icons.svg#icon-envelope');*/
   width: 1rem;
   height: 0.9375rem;
   /*max-width: 100%; */
