@@ -224,18 +224,36 @@ ul {
   font-size: 0.75rem;
   line-height: 1.17;
   color: var(--color-grey2);
+  padding-bottom: 0.25rem;
 }
 
 .modal-label {
-  padding-top: 0.25rem;
+  padding-bottom: 0.625rem;
 }
 
 .modal-icon2 {
   position: absolute;
-
+  fill: var(--color-black);
   transform: translate(130%, 100%);
 }
 
+.modal-area {
+  border-style: none;
+  resize: none;
+  min-width: 28rem;
+  min-height: 7.5rem;
+ /* padding: 0.75rem 1rem; */
+   padding: 0.75rem 1rem;
+  border: 1px solid #21212133;
+  border-radius: 4px;
+}
+/*
+.modal-area-div {
+  padding: 0.75rem 1rem;
+  border: 1px solid #21212133;
+  border-radius: 4px;
+}
+*/
 .placeholder-div {
   width: 100%;
 }
