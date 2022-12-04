@@ -242,8 +242,9 @@ ul {
   transform: translate(130%, 100%);
 }
 
-.modal-icon2:checked {
+.modal-input1:focus {
   fill: var(--color-blue);
+  border: 1px solid var(--color-blue);
 }
 
 .modal-area {
