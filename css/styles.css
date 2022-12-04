@@ -440,6 +440,12 @@ ul {
 
 .footer-div7 {
   padding: 1.25rem 0 0 0;
+  display: inline-block;
+}
+
+.footer-form {
+  display: flex;
+  width: 35.625rem;
 }
 
 .ourteam-icon,
@@ -715,7 +721,26 @@ ul {
   transform-origin: bottom left;
 }
 
+.footer-label {
+  display: inline-block;
+  padding-right: 0.75rem;
+  /* min-width: 22.375rem;*/
+  /*width: 100%;*/
+}
+
+.footer-input {
+  width: 100%;
+  min-width: 22.375rem;
+  min-height: 3.125rem;
+  padding-left: 1rem;
+}
+
+/*.footer-input::placeholder {
+  padding-left: 1rem;
+}*/
+
 .footer-form-button {
+  display: inline-block;
   display: flex;
   align-items: center;
   text-align: center;
