@@ -149,8 +149,9 @@ ul {
 
 .modal-button-div1 {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  flex-direction: column;
+  /* justify-content: center;*/
+  align-items: center;
   background-color: var(--color-white);
   position: relative;
   top: 50%;
@@ -167,6 +168,8 @@ ul {
 
 .modal-button-div2 {
   padding: 0.5rem;
+  position: absolute;
+  right: 0.1rem;
 }
 
 .modal-button-div3 {
@@ -190,6 +193,36 @@ ul {
   border: 0;
   background-color: var(--color-white);
   margin: 0;
+}
+
+.modal-p {
+  padding-top: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+ /* justify-content: center;
+  align-items: center;*/
+  padding-top: 0.75rem;
+  min-width: 28rem;
+}
+
+.modal-input1 {
+  border: 1px solid #21212133;
+  border-radius: 4px;
+  padding-top: 0.25rem;
+
+}
+
+.modal-span {
+ font-size: 0.75rem;
+  line-height: 1.17; 
+  color: var(--color-grey2)
 }
 
 .placeholder-div {
@@ -733,6 +766,11 @@ ul {
   min-width: 22.375rem;
   min-height: 3.125rem;
   padding-left: 1rem;
+  background-color: inherit;
+  color: #ffffff99;
+  border: 1px solid #ffffff4d;
+  filter: drop-shadow(0px 4px 4px #00000026);
+  border-radius: 4px;
 }
 
 /*.footer-input::placeholder {
