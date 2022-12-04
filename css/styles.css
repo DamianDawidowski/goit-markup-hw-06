@@ -173,7 +173,7 @@ ul {
   padding: 0.25rem 0.3125rem 0.125rem;
   border-radius: 50%;
   border: 1px solid var(--color-black4);
-  }
+}
 
 .modal-button-x {
   font-size: 0.875rem;
@@ -380,6 +380,7 @@ ul {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.19;
+  color: var(--color-white);
 }
 
 .outeam-div3 {
@@ -430,6 +431,15 @@ ul {
 .ourteam-div5:focus {
   fill: var(--color-white);
   color: var(--color-white);
+}
+
+.footer-div6 {
+  padding: 0.75rem 0 0 4.875rem;
+  /* padding-left: 4.875rem; */
+}
+
+.footer-div7 {
+  padding: 1.25rem 0 0 0;
 }
 
 .ourteam-icon,
@@ -703,4 +713,23 @@ ul {
 .hover-underline-animation:focus::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.footer-form-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  min-width: 12.5rem;
+}
+
+.footer-form-div {
+  padding: 0.625rem 1.75rem 0.625rem 2.625rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.875;
 }
