@@ -286,16 +286,8 @@ ul {
   appearance: none;
   outline: none;
   display: block;
-  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg aria-hidden='true' style='position: absolute; width: 0; height: 0; overflow: hidden;' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Csymbol id='icon-Vector1' viewBox='0 0 34 32'%3E%3Cpath d='M30.341 3.556v24.889h-26.548v-24.889h26.548zM30.341 0h-26.548c-2.086 0-3.793 1.6-3.793 3.556v24.889c0 1.956 1.707 3.556 3.793 3.556h26.548c2.086 0 3.793-1.6 3.793-3.556v-24.889c0-1.956-1.707-3.556-3.793-3.556z'%3E%3C/path%3E%3C/symbol%3E%3C/defs%3E%3C/svg%3E");
-  */
-  /*background-color: black;*/
-  /*
-  url('../images/icons.svg#icon-envelope');*/
-  /* background-image: url(../images/icons.svg#icon-envelope);*/
   width: 1rem;
   height: 0.9375rem;
-  /*max-width: 100%; */
-  /* background-image: url(../Vector\(1\).svg);*/
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='15' viewBox='0 0 16 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='Vector' d='M14.2222 1.66667V13.3333H1.77778V1.66667H14.2222ZM14.2222 0H1.77778C0.8 0 0 0.75 0 1.66667V13.3333C0 14.25 0.8 15 1.77778 15H14.2222C15.2 15 16 14.25 16 13.3333V1.66667C16 0.75 15.2 0 14.2222 0Z' fill='%23212121'/%3E%3C/svg%3E");
   margin-right: 0.5rem;
   display: inline-block;
