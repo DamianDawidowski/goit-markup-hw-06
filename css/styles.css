@@ -215,7 +215,7 @@ ul {
 .modal-input1 {
   border: 1px solid #21212133;
   border-radius: 4px;
-
+padding-left: 2.625rem;
   min-width: 28rem;
   min-height: 2.5rem;
 }
@@ -229,6 +229,7 @@ ul {
 .modal-label {
   padding-top: 0.25rem;
 }
+
 
 .modal-icon2 {
   position: absolute;
