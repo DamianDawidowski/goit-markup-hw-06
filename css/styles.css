@@ -286,8 +286,8 @@ ul {
   appearance: none;
   outline: none;
   display: block;
-  /*background-color: black;*/
   background: url(../images/icons.svg#icon-envelope);
+  /*background-color: black;*/
   /*
   url('../images/icons.svg#icon-envelope');*/
   width: 1rem;
