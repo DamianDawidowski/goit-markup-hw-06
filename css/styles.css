@@ -247,7 +247,6 @@ ul {
 .modal-icon2 {
   position: absolute;
   transform: translate(130%, 100%);
-  /*color: inherit;*/
   color: inherit;
   fill: currentColor;
 }
@@ -281,7 +280,7 @@ ul {
   font-size: 0.875rem;
   line-height: 1.71;
   color: var(--color-grey2);
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-width: 26.1875rem;
@@ -554,7 +553,6 @@ ul {
 
 .footer-div6 {
   padding: 0.75rem 0 0 4.875rem;
-  /* padding-left: 4.875rem; */
 }
 
 .footer-div7 {
@@ -843,8 +841,6 @@ ul {
 .footer-label {
   display: inline-block;
   padding-right: 0.75rem;
-  /* min-width: 22.375rem;*/
-  /*width: 100%;*/
 }
 
 .footer-input {
