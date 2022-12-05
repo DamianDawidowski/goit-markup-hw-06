@@ -118,7 +118,6 @@ ul {
   color: var(--color-white);
   background-color: var(--color-blue);
   font-weight: 700;
-  /* box-shadow: 0px 0.25rem 0.25rem #000026;*/
   border-radius: 0.25rem;
   border-color: var(--color-blue);
   width: 12.4375rem;
@@ -150,7 +149,6 @@ ul {
 .modal-button-div1 {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;*/
   align-items: center;
   background-color: var(--color-white);
   position: relative;
@@ -206,8 +204,6 @@ ul {
 .modal-form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center;*/
   padding-top: 0.75rem;
   padding-bottom: 1.25rem;
   min-width: 28rem;
@@ -219,8 +215,7 @@ ul {
   padding-left: 2.625rem;
   min-width: 28rem;
   min-height: 2.5rem;
-  fill: var(--color-black);
-  color: inherit;
+  outline: none;
 }
 
 .modal-input1:focus,
@@ -249,11 +244,6 @@ ul {
   color: var(--color-blue);
 }
 
-.modal-div:focus,
-.modal-div:active {
-  fill: var(--color-blue);
-}
-
 .modal-icon2 {
   position: absolute;
   transform: translate(130%, 100%);
@@ -272,18 +262,16 @@ ul {
   resize: none;
   min-width: 28rem;
   min-height: 7.5rem;
-  /* padding: 0.75rem 1rem; */
   padding: 0.75rem 1rem;
   border: 1px solid #21212133;
   border-radius: 4px;
 }
-/*
-.modal-area-div {
-  padding: 0.75rem 1rem;
-  border: 1px solid #21212133;
-  border-radius: 4px;
+
+.modal-area:active,
+.modal-area:focus {
+  border: 1px solid var(--color-blue);
+  outline: none;
 }
-*/
 
 .modal-area::placeholder {
   color: #4b4b4b80;
@@ -293,17 +281,11 @@ ul {
   font-size: 0.875rem;
   line-height: 1.71;
   color: var(--color-grey2);
-  /* -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  outline: none;*/
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 26.1875rem;
 }
-/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' style='position:absolute;width:0;height:0;overflow:hidden'%3E%3Cdefs%3E%3Csymbol id='icon-Vector1' viewBox='0 0 34 32'%3E%3Cpath d='M30.341 3.556v24.889H3.793V3.556h26.548zm0-3.556H3.793C1.707 0 0 1.6 0 3.556v24.889c0 1.956 1.707 3.556 3.793 3.556h26.548c2.086 0 3.793-1.6 3.793-3.556V3.556C34.134 1.6 32.427 0 30.341 0z'/%3E%3C/symbol%3E%3C/defs%3E%3C/svg%3E");
- */
 
 .terms-button {
   -moz-appearance: none;
@@ -876,10 +858,6 @@ ul {
   filter: drop-shadow(0px 4px 4px #00000026);
   border-radius: 4px;
 }
-
-/*.footer-input::placeholder {
-  padding-left: 1rem;
-}*/
 
 .footer-form-button {
   display: inline-block;
