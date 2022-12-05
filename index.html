@@ -27,47 +27,39 @@
           autocomplete="off"
           method="POST"
           action="javascript:void(0);"
-          id="footer-email"
+          id="form-data"
         >
           <span class="modal-span">Imie</span>
-          <label class="modal-label">
-            <div class="modal-div transition">
-              <svg width="12" height="12" class="modal-icon2 transition">
-                <use href="./images/icons.svg#icon-Vector2"></use>
-              </svg>
-              <input class="modal-input1 transition" type="text" name="username" />
-            </div>
+          <label class="modal-label transition">
+            <svg width="12" height="12" class="modal-icon2 transition">
+              <use href="./images/icons.svg#icon-Vector2"></use>
+            </svg>
+            <input class="modal-input1 transition" type="text" name="username" />
           </label>
           <span class="modal-span">Telefon</span>
           <label class="modal-label">
-            <div class="modal-div transition">
-              <svg width="12" height="12" class="transition modal-icon2">
-                <use href="./images/icons.svg#icon-phone-black"></use>
-              </svg>
-              <input class="modal-input1 transition" type="text" name="userphone" />
-            </div>
+            <svg width="12" height="12" class="transition modal-icon2">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+            <input class="modal-input1 transition" type="text" name="userphone" />
           </label>
           <span class="modal-span">Email</span>
           <label class="modal-label">
-            <div class="modal-div transition">
-              <svg width="12" height="12" class="modal-icon2 transition">
-                <use href="./images/icons.svg#icon-email-black"></use>
-              </svg>
-              <input class="modal-input1 transition" type="text" name="userphone" />
-            </div>
+            <svg width="12" height="12" class="modal-icon2 transition">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+            <input class="modal-input1 transition" type="text" name="userphone" />
           </label>
           <span class="modal-span">Komentarz</span>
           <label class="modal-label">
-            <div class="modal-area-div">
-              <textarea
-                class="modal-area transition"
-                id="id-comment"
-                name="comment"
-                placeholder="Wprowadź tekst"
-              ></textarea>
-            </div>
+            <textarea
+              class="modal-area transition"
+              id="id-comment"
+              name="comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
           </label>
-          <label class="form-terms" for="terms-and-conditions" name="terms-and-conditions">
+          <label class="form-terms" for="terms-and-conditions">
             <input
               class="terms-button"
               id="terms-and-conditions"
@@ -80,7 +72,9 @@
               <a class="modal-a" href="#">Politykę Prywatności.</a></span
             >
           </label>
-          <div class="modal-button"><button class="button effsolutions-button " type="button">Wyślij</button></div>
+          <div class="modal-button">
+            <button class="button effsolutions-button" type="button">Wyślij</button>
+          </div>
         </form>
         <div class="modal-button-div2">
           <div class="modal-button-div3">
@@ -505,11 +499,11 @@
               action="javascript:void(0);"
               id="footer-email"
             >
-              <label class="footer-label" name="email">
+              <label class="footer-label">
                 <input class="footer-input" type="email" name="email" placeholder="E-mail" />
               </label>
               <button class="footer-form-button" type="submit">
-                <div class="footer-form-div">Zapisz się</div>
+                <span class="footer-form-div">Zapisz się</span>
                 <svg class="footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>

@@ -235,12 +235,12 @@ ul {
   color: var(--color-blue);
 }
 
-.modal-div {
+.modal-label {
   padding-bottom: 0.625rem;
   fill: var(--color-black);
 }
 
-.modal-div:focus-within {
+.modal-label:focus-within {
   color: var(--color-blue);
 }
 
