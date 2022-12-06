@@ -34,21 +34,21 @@
             <svg width="12" height="12" class="modal-icon2 transition">
               <use href="./images/icons.svg#icon-Vector2"></use>
             </svg>
-            <input class="modal-input1 transition" type="text" name="username" />
+            <input class="modal-input1 transition" type="text" name="name" required/>
           </label>
           <span class="modal-span">Telefon</span>
           <label class="modal-label">
             <svg width="12" height="12" class="transition modal-icon2">
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
-            <input class="modal-input1 transition" type="text" name="userphone" />
+            <input class="modal-input1 transition" type="tel" pattern="[0-9]{9}" name="phone" required/>
           </label>
           <span class="modal-span">Email</span>
           <label class="modal-label">
             <svg width="12" height="12" class="modal-icon2 transition">
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
-            <input class="modal-input1 transition" type="text" name="userphone" />
+            <input class="modal-input1 transition" type="email" name="email" required/>
           </label>
           <span class="modal-span">Komentarz</span>
           <label class="modal-label">
@@ -73,7 +73,7 @@
             >
           </label>
           <div class="modal-button">
-            <button class="button effsolutions-button" type="button">Wyślij</button>
+            <button class="button effsolutions-button" type="submit">Wyślij</button>
           </div>
         </form>
         <div class="modal-button-div2">
@@ -500,7 +500,7 @@
               id="footer-email"
             >
               <label class="footer-label">
-                <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+                <input class="footer-input" type="email" name="email" placeholder="E-mail" required/>
               </label>
               <button class="footer-form-button" type="submit">
                 <span class="footer-form-div">Zapisz się</span>
